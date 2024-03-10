@@ -4,7 +4,7 @@ const spans = document.querySelectorAll("span");
 const lever = document.querySelector (".switch");
 const circle = document.querySelector(".circle");
 const menu = document.querySelector(".menu");
-const main = document.querySelector(".main");
+const main = document.querySelector("main");
 
 menu.addEventListener("click",()=>{
     sidebar.classList.toggle("max-sidebar");

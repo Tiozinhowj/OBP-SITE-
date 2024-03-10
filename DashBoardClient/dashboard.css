@@ -331,7 +331,7 @@ body {
 main{
     margin-left: 250px;
     padding: 20px;
-    transition: margin-left 0.5 ease;
+    transition: margin-left 1s ease;
 }
 
 main.min-main{
@@ -368,7 +368,7 @@ main.min-main{
     main{
         margin-left: 0;
     }
-    main.min-main{
+    .min-main{
         margin-left: 0;
     }
 }
