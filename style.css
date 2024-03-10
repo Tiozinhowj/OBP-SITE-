@@ -104,7 +104,7 @@ body {
     width: 325px;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 70%;
     transform: translate(-50%, -50%);
 }
 
@@ -116,12 +116,9 @@ section h2 {
 }
 
 .container2{
-    max-width: 100%;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
 }
-
-
-
 .indeximg{
     display: flex;
     max-width: 100%;
@@ -129,32 +126,85 @@ section h2 {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 30%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
 }
 
 .container4{
-    max-width: 100%;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
+}
+
+.container5 {
+    width: 100%;
+    height: 100vh;
+}
+
+.box5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 450px;
+    width: 450px;
+    position: absolute;
+    top: 118%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container6 {
+    width: 100%;
+    height: 100vh;
+}
+
+.box6 {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 450px;
+    width: 450px;
+    position: absolute;
+    top: 170%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.container7{
+    width: 100%;
+    height: 100vh;
 }
 
 .indeximg2{
     display: flex;
     max-width: 100%;
-    height: 350px;
+    height: 300px;
     margin: 0;
     position: absolute;
-    top: 115%;
-    left: 50%;
+    top: 118%;
+    left: 70%;
     transform: translate(-50%, -50%);
-    border-radius: 5px; 
+    border-radius: 5px;
+}
+
+.container8{
+    max-width: 100%;
+    height: 800px;
+}
+
+.indeximg3{
+    display: flex;
+    max-width: 100%;
+    height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 170%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
 
 .container3title{
     display: flex;
     position: absolute;
-    top: 150%;
+    top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 10px;
@@ -168,7 +218,7 @@ section h2 {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 160%; 
+    top: 210%; 
     left: 50%; 
     transform: translate(-50%, -50%);
 }
@@ -181,6 +231,7 @@ section h2 {
 }
 
 
+
 footer {
     background-color: #EEF1F6;
     color: #000000;
@@ -189,7 +240,7 @@ footer {
     position:absolute;
     bottom: 0px;
     width: 100%;
-    top: 175%; 
+    top: 220%; 
     left: 50%; 
     transform: translate(-50%, -50%);
 }
@@ -249,4 +300,87 @@ footer {
 
 .address {
     text-align: center;
+}
+
+
+@media (max-width: 1120px) {
+    .indeximg2 {
+        position: absolute;
+        top: 118%;
+        left: 72%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .indeximg{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg2 {
+        height: 250px;
+        position: absolute;
+        top: 118%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg3 {
+        height: 250px;
+        top: 170%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .indeximg{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg2 {
+        height: 200px;
+        position: absolute;
+        top: 118%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg3 {
+        height: 200px;
+        top: 170%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
 }
