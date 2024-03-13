@@ -50,7 +50,7 @@ body {
     margin-left: 40px;
 }
 
-.navigationMENU{
+.navigationMENU {
     display: none;
     position: absolute;
     right: 2rem;
@@ -64,15 +64,15 @@ body {
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.navigationMENU.open{
+.navigationMENU.open {
     height: 240px;
 }
 
-.navigationMENU a{
+.navigationMENU a {
     display: none;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    font-size: 1.1em;
+    font-size: 25px;
     margin-bottom: 40px;
     text-align: center;
     color: black;
@@ -101,7 +101,7 @@ body {
 }
 
 .menuicon i {
-    color: red;
+    color: white;
     font-size: 1.5em;
     cursor: pointer;
     display: none;
@@ -130,11 +130,11 @@ body {
 
 }
 
-.navigationMENU .btlogin2{
+.navigationMENU .btlogin2 {
     display: flex;
     width: 100%;
     justify-content: center;
-    background-color: orange;
+    background-color: #08359B;
     color: #fff;
     padding: 0.5em 1em;
     border: none;
@@ -162,30 +162,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* Menu Hamburguer */
-
-@media(max-width: 920px) {
-    .navigation {
-        display: none;
-    }
-
-    .menuicon i {
-        display: block;
-    }
-    .navigationMENU{
-        display: block;
-    }
-    .navigationMENU a{
-        display: block;
-    }
-}
-
-@media (max-width: 576px) {
-    .navigationMENU {
-        left: 2rem;
-        width: unset;
-    }
-}
 
 section h2 {
     font-size: 42px;
@@ -335,7 +311,7 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 10px;
-    color: #162938;
+    color: #b9afaf;
     font-size: 8px;
 }
 
@@ -348,7 +324,7 @@ footer {
 }
 
 .register {
-    color: #cfc7c7;
+    color: #b9afaf;
     text-align: center;
     font-size: 8px;
 }
@@ -429,3 +405,143 @@ footer {
         border-radius: 5px;
     }
 }
+
+/* Menu Hamburguer */
+
+@media(max-width: 920px) {
+    .navigation {
+        display: none;
+    }
+
+    .menuicon i {
+        display: block;
+    }
+
+    .navigationMENU {
+        display: block;
+    }
+
+    .navigationMENU a {
+        display: block;
+    }
+
+    .indeximg {
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg2 {
+        height: 150px;
+        position: absolute;
+        top: 118%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box5 {
+        position: absolute;
+        top: 118%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .indeximg3 {
+        height: 150px;
+        top: 170%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box6 {
+        position: absolute;
+        top: 170%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .container3 img {
+        max-width: 100%;
+        height: 40px;
+        margin: 0 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 692px) {
+    .navigationMENU {
+        left: 2rem;
+        width: unset;
+    }
+
+    .indeximg2 {
+        display: none;
+    }
+
+    .indeximg3 {
+        display: none;
+    }
+
+    .box5 {
+        position: absolute;
+        top: 118%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    .box6 {
+        position: absolute;
+        top: 170%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .container3title {
+        display: flex;
+        position: absolute;
+        top: 200%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8px;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .container3 {
+        position: absolute;
+        top: 210%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container3 img {
+        max-width: 100%;
+        height: 23px;
+        margin: 0 10px;
+        border-radius: 5px;
+    }
+}
+
+
+
+

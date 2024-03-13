@@ -199,14 +199,41 @@ footer {
     color: #000000;
     padding: 0px;
     text-align: right;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     width: 100%;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .socialicons {
     display: flex;
     justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    color: #b9afaf;
+    font-size: 8px;
+}
+
+.contact h1 {
+    margin: 0 10px;
+}
+
+.separator {
+    height: 20px;
+}
+
+.register {
+    color: #b9afaf;
+    text-align: center;
+    font-size: 8px;
 }
 
 .socialicons a {
@@ -223,18 +250,17 @@ footer {
     opacity: 8.9;
 }
 
-.socialicons a:hover{
+.socialicons a:hover {
     background-color: #d1c7c7;
     transition: 0.5s;
 }
 
-.socialicons a:hover i{
-    color:  black;
+.socialicons a:hover i {
+    color: black;
     transition: 0.5s;
 }
 
-
-.address{
+.address {
     text-align: center;
-} 
+}
 

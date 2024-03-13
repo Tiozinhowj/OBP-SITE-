@@ -11,7 +11,7 @@ menuicon.onclick = function () {
     navigationMENU.classList.toggle('open')
     const isOpen = navigationMENU.classList.contains('open')
 
-    menuicon.classList = isOpen
-    ? 'bx bx-menu'
-    : 'bx bx-x-circle'
+    menuicon.className = isOpen
+        ? 'bx bx-x-circle'
+        : 'bx bx-menu';
 }
