@@ -203,6 +203,14 @@ section h2 {
     border-radius: 5px;
 }
 
+.indeximg1 .indeximg2 .indeximg3{
+    visibility: hidden;
+}
+
+.box1 .box2 .box3 {
+    visibility: hidden;
+}
+
 footer {
     background-color: #EEF1F6;
     color: #000000;
