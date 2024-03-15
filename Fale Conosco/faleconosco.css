@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #08359B;
+}
+
+
 body {
     display: flex;
     justify-content: center;
@@ -31,6 +42,7 @@ body {
     z-index: 99;
 }
 
+
 .logo .logoimg{
     font-size: 2em;
     color: #fff;
@@ -43,6 +55,37 @@ body {
     position: relative;
     font-size: 1.1em;
     color: #EEF1F6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigationMENU {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navigationMENU.open {
+    height: 240px;
+}
+
+.navigationMENU a {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -67,6 +110,13 @@ body {
     transform: scaleX(1);
 }
 
+.menuicon i {
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
 /* animação ao clicar no nav bar */
 
 .navigation .btlogin {
@@ -88,6 +138,21 @@ body {
     background: #fff;
     color: #162938;
 
+}
+
+.navigationMENU .btlogin2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #08359B;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* animação ao clicar no login */
@@ -121,7 +186,7 @@ section h2 {
     justify-content: space-evenly;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
@@ -264,3 +329,27 @@ footer {
     text-align: center;
 }
 
+@media(max-width: 920px) {
+    .navigation {
+        display: none;
+    }
+
+    .menuicon i {
+        display: block;
+    }
+
+    .navigationMENU {
+        display: block;
+    }
+
+    .navigationMENU a {
+        display: block;
+    }
+}
+
+@media (max-width: 692px) {
+    .navigationMENU {
+        left: 2rem;
+        width: unset;
+    }
+}
