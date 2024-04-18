@@ -126,19 +126,19 @@ body {
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #08359B;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
-    color: #fff;
+    color: #08359B;
     margin-left: 40px;
     transition: .5s;
 }
 
 .navigation .btlogin:hover {
-    background: #fff;
-    color: #162938;
+    background: #e4e8f8;
+    color: #08359B;
 
 }
 
