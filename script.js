@@ -15,3 +15,14 @@ menuicon.onclick = function () {
         ? 'bx bx-x-circle'
         : 'bx bx-menu';
 }
+
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal('.box' ,{duration: 2500})
+sr.reveal('.indeximg' ,{duration: 6000} )
+sr.reveal('.box5' ,{duration: 2500})
+sr.reveal('.indeximg2' ,{duration: 6000} )
+sr.reveal('.box6' ,{duration: 2500})
+sr.reveal('.indeximg3' ,{duration: 6000} )
+sr.reveal('.container3title' ,{duration: 2500})
+sr.reveal('.container3' ,{duration: 6000} )

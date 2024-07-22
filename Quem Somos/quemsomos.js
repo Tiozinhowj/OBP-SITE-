@@ -15,3 +15,8 @@ menuicon.onclick = function () {
         ? 'bx bx-x-circle'
         : 'bx bx-menu';
 }
+
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal('.box' ,{duration: 2500})
+sr.reveal('.quemsomospicture' ,{duration: 6000} )
