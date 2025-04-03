@@ -1,6 +1,6 @@
 function AbrirChamado() {
     // Duplicando as barras invertidas
-    location.href = "../Abrir Chamado/login.html";
+    location.href = "https://psfx.com.br/pws/index.php/pws";
 }
 
 const btlogin = document.querySelector('.btlogin')
