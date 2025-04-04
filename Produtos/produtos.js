@@ -16,7 +16,7 @@ menuicon.onclick = function () {
         : 'bx bx-menu';
 }
 
- window.sr = ScrollReveal({ reset: true});
+ window.sr = ScrollReveal({ reset: false});
 
 sr.reveal('.indeximg1' ,{duration: 6000} )
 sr.reveal('.box2' ,{duration: 2500})

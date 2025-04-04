@@ -15,3 +15,10 @@ menuicon.onclick = function () {
         ? 'bx bx-x-circle'
         : 'bx bx-menu';
 }
+
+window.sr = ScrollReveal({ reset: false});
+
+sr.reveal('.contact-container' ,{duration: 2500})
+
+
+
